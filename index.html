@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>2020Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Welcome!</h1>
+        <div id="text-button">
+            <p id="text">クリック！</p>
+        </div>
+    </main>
+
+    <script>
+        console.log('start');
+        document.getElementById("text-button").onclick = function () {
+            if (document.getElementById("text").innerHTML == "クリック！") {
+                document.getElementById("text").innerHTML = "Good!";
+
+            } else {
+                document.getElementById("text").innerHTML = "クリック！";
+            }
+            alert('more!');
+        };
+    </script>
+</body>
+
+</html>
