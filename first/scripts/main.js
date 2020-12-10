@@ -19,11 +19,9 @@ function multiply(num1, num2) {
 }
 
 
-/*
 document.querySelector('html').onclick = function () {
     alert('痛っ! つつくのはやめて!');
 }
-*/
 
 
 let myImage = document.querySelector('img');
@@ -31,7 +29,7 @@ let myImage = document.querySelector('img');
 myImage.onclick = function () {
     let mySrc = myImage.getAttribute('src');
     if (mySrc === 'images/firefox-icon.png') {
-        myImage.setAttribute('src', 'images/tsicon.png');
+        myImage.setAttribute('src', 'images/firefox2.png');
     } else {
         myImage.setAttribute('src', 'images/firefox-icon.png');
     }
